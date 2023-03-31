@@ -129,7 +129,7 @@ The challenge is essentially to pass a series of symbolic comparisons to reach t
   }
 ```
 
-To solve this challenge, I use 'angr', which allows us to find all symbolic execution paths of the program to a given address (there should be only one that gives us the flag).
+To solve this challenge, I use `angr`, which allows us to find all symbolic execution paths of the program to a given address (there should be only one that gives us the flag).
 
 Below is my solver script:
 ```python
